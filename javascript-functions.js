@@ -5,11 +5,13 @@
   // Reassignable:
     // var: global scope
 
+myCat = "Tobey"
+console.log(myCat)
+var myCat
 // for(let i = 0; i < 10; i++) {
-//   var myCat = "Tobey"
 //   console.log(i)
 // }
-// console.log(myCat) // Will log Tobey
+ // Will log Tobey
 
 
     // let: function and block scope
@@ -121,4 +123,4 @@ const coffeeShop = (coffeeType, size) => {
 console.log(coffeeShop("Caramel", "large")) // Your large Caramel is $5
 console.log(coffeeShop("Mocha", "medium")) // Your medium Mocha is $4
 console.log(coffeeShop("Decaf", "small")) // Your small Decaf is $3
-console.log(coffeeShop("Green tea", "Xl"))
+console.log(coffeeShop("Green tea", "Xl")) // We do not carry Xl.  Please order a small, medium or large.
