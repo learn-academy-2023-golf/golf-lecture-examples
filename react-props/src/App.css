@@ -1,0 +1,12 @@
+.card {
+  border: 2px solid black;
+  height: 200px;
+  width: 300px;
+  padding: 20px;
+  margin: 20px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+}
